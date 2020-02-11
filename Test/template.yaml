@@ -1,0 +1,5 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: 'A sample CloudFormation template that we can use to validate in our pipeline'
+Resources:
+  S3Bucket:
+    Type: 'AWS::S3::Bucket'
